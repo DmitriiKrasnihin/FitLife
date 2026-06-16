@@ -44,12 +44,14 @@ def water_test(user_weight):
     return round(water, 1)
 
 
+bmi_result = bmi_test(user_weight, user_height)
+water_result = water_test(user_weight)
 # 4. Вывод красивого результата
 # TODO: Используй f-строку, чтобы вывести приветствие, например:"Привет, Иван!"
 # TODO: Выведи возраст, ИМТ (округленный до 1 знака) и норму воды.
 print(f"Добро пожаловать, {user_name}!")
 print(f"Имя: {user_name}")
 print(f"Возраст: {user_age}")
-print(f"Ваш индекс массы тела: {bmi_test(user_weight, user_height)}")
-print(f"Рекомендуемая норма воды: {water_test(user_weight)} л. в день")
+print(f"Ваш индекс массы тела: {bmi_result}")
+print(f"Рекомендуемая норма воды: {water_result} л. в день")
 print("Расчет окончен. Будьте здоровы!")
