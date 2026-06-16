@@ -48,8 +48,8 @@ def water_test(user_weight):
 # TODO: Используй f-строку, чтобы вывести приветствие, например:"Привет, Иван!"
 # TODO: Выведи возраст, ИМТ (округленный до 1 знака) и норму воды.
 print(f"Добро пожаловать, {user_name}!")
-print(f"Имя: {user_name}\
-      \nВозраст: {user_age}\
-      \nВаш индекс массы тела: {bmi_test(user_weight, user_height)}\
-        \nРекомендуемая норма воды: {water_test(user_weight)} л. в день")
+print(f"Имя: {user_name}")
+print(f"Возраст: {user_age}")
+print(f"Ваш индекс массы тела: {bmi_test(user_weight, user_height)}")
+print(f"Рекомендуемая норма воды: {water_test(user_weight)} л. в день")
 print("Расчет окончен. Будьте здоровы!")
